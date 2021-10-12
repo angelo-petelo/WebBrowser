@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1740FAAD271544EB00364EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAAC271544EB00364EC3 /* AppDelegate.swift */; };
+		1740FAAF271544EB00364EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAAE271544EB00364EC3 /* SceneDelegate.swift */; };
+		1740FAB1271544EB00364EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAB0271544EB00364EC3 /* ViewController.swift */; };
+		1740FAB4271544EB00364EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB2271544EB00364EC3 /* Main.storyboard */; };
+		1740FAB6271544EF00364EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB5271544EF00364EC3 /* Assets.xcassets */; };
+		1740FAB9271544EF00364EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */; };
+		1740FAC4271544EF00364EC3 /* NeevaWebBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */; };
+		1740FACE271544EF00364EC3 /* NeevaWebBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */; };
+		1740FAD0271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1740FAC0271544EF00364EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1740FAA1271544EB00364EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FAA8271544EB00364EC3;
+			remoteInfo = NeevaWebBrowser;
+		};
+		1740FACA271544EF00364EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1740FAA1271544EB00364EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FAA8271544EB00364EC3;
+			remoteInfo = NeevaWebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1740FAA9271544EB00364EC3 /* NeevaWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeevaWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1740FAAC271544EB00364EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1740FAAE271544EB00364EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1740FAB0271544EB00364EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1740FAB3271544EB00364EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1740FAB5271544EF00364EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1740FAB8271544EF00364EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1740FABA271544EF00364EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1740FABF271544EF00364EC3 /* NeevaWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeevaWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserTests.swift; sourceTree = "<group>"; };
+		1740FAC9271544EF00364EC3 /* NeevaWebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeevaWebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserUITests.swift; sourceTree = "<group>"; };
+		1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1740FAA6271544EB00364EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FABC271544EF00364EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FAC6271544EF00364EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1740FAA0271544EB00364EC3 = {
+			isa = PBXGroup;
+			children = (
+				1740FAAB271544EB00364EC3 /* NeevaWebBrowser */,
+				1740FAC2271544EF00364EC3 /* NeevaWebBrowserTests */,
+				1740FACC271544EF00364EC3 /* NeevaWebBrowserUITests */,
+				1740FAAA271544EB00364EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1740FAAA271544EB00364EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1740FAA9271544EB00364EC3 /* NeevaWebBrowser.app */,
+				1740FABF271544EF00364EC3 /* NeevaWebBrowserTests.xctest */,
+				1740FAC9271544EF00364EC3 /* NeevaWebBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1740FAAB271544EB00364EC3 /* NeevaWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1740FAAC271544EB00364EC3 /* AppDelegate.swift */,
+				1740FAAE271544EB00364EC3 /* SceneDelegate.swift */,
+				1740FAB0271544EB00364EC3 /* ViewController.swift */,
+				1740FAB2271544EB00364EC3 /* Main.storyboard */,
+				1740FAB5271544EF00364EC3 /* Assets.xcassets */,
+				1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */,
+				1740FABA271544EF00364EC3 /* Info.plist */,
+			);
+			path = NeevaWebBrowser;
+			sourceTree = "<group>";
+		};
+		1740FAC2271544EF00364EC3 /* NeevaWebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */,
+			);
+			path = NeevaWebBrowserTests;
+			sourceTree = "<group>";
+		};
+		1740FACC271544EF00364EC3 /* NeevaWebBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */,
+				1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */,
+			);
+			path = NeevaWebBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1740FAA8271544EB00364EC3 /* NeevaWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1740FAD3271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowser" */;
+			buildPhases = (
+				1740FAA5271544EB00364EC3 /* Sources */,
+				1740FAA6271544EB00364EC3 /* Frameworks */,
+				1740FAA7271544EB00364EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeevaWebBrowser;
+			productName = NeevaWebBrowser;
+			productReference = 1740FAA9271544EB00364EC3 /* NeevaWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1740FABE271544EF00364EC3 /* NeevaWebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1740FAD6271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowserTests" */;
+			buildPhases = (
+				1740FABB271544EF00364EC3 /* Sources */,
+				1740FABC271544EF00364EC3 /* Frameworks */,
+				1740FABD271544EF00364EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1740FAC1271544EF00364EC3 /* PBXTargetDependency */,
+			);
+			name = NeevaWebBrowserTests;
+			productName = NeevaWebBrowserTests;
+			productReference = 1740FABF271544EF00364EC3 /* NeevaWebBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1740FAC8271544EF00364EC3 /* NeevaWebBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1740FAD9271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowserUITests" */;
+			buildPhases = (
+				1740FAC5271544EF00364EC3 /* Sources */,
+				1740FAC6271544EF00364EC3 /* Frameworks */,
+				1740FAC7271544EF00364EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1740FACB271544EF00364EC3 /* PBXTargetDependency */,
+			);
+			name = NeevaWebBrowserUITests;
+			productName = NeevaWebBrowserUITests;
+			productReference = 1740FAC9271544EF00364EC3 /* NeevaWebBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1740FAA1271544EB00364EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1740FAA8271544EB00364EC3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1740FABE271544EF00364EC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1740FAA8271544EB00364EC3;
+					};
+					1740FAC8271544EF00364EC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1740FAA8271544EB00364EC3;
+					};
+				};
+			};
+			buildConfigurationList = 1740FAA4271544EB00364EC3 /* Build configuration list for PBXProject "NeevaWebBrowser" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1740FAA0271544EB00364EC3;
+			productRefGroup = 1740FAAA271544EB00364EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1740FAA8271544EB00364EC3 /* NeevaWebBrowser */,
+				1740FABE271544EF00364EC3 /* NeevaWebBrowserTests */,
+				1740FAC8271544EF00364EC3 /* NeevaWebBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1740FAA7271544EB00364EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1740FAB9271544EF00364EC3 /* LaunchScreen.storyboard in Resources */,
+				1740FAB6271544EF00364EC3 /* Assets.xcassets in Resources */,
+				1740FAB4271544EB00364EC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FABD271544EF00364EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FAC7271544EF00364EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1740FAA5271544EB00364EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1740FAB1271544EB00364EC3 /* ViewController.swift in Sources */,
+				1740FAAD271544EB00364EC3 /* AppDelegate.swift in Sources */,
+				1740FAAF271544EB00364EC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FABB271544EF00364EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1740FAC4271544EF00364EC3 /* NeevaWebBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1740FAC5271544EF00364EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1740FAD0271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift in Sources */,
+				1740FACE271544EF00364EC3 /* NeevaWebBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1740FAC1271544EF00364EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1740FAA8271544EB00364EC3 /* NeevaWebBrowser */;
+			targetProxy = 1740FAC0271544EF00364EC3 /* PBXContainerItemProxy */;
+		};
+		1740FACB271544EF00364EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1740FAA8271544EB00364EC3 /* NeevaWebBrowser */;
+			targetProxy = 1740FACA271544EF00364EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1740FAB2271544EB00364EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1740FAB3271544EB00364EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1740FAB8271544EF00364EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1740FAD1271544EF00364EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1740FAD2271544EF00364EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1740FAD4271544EF00364EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeevaWebBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1740FAD5271544EF00364EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeevaWebBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1740FAD7271544EF00364EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeevaWebBrowser.app/NeevaWebBrowser";
+			};
+			name = Debug;
+		};
+		1740FAD8271544EF00364EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeevaWebBrowser.app/NeevaWebBrowser";
+			};
+			name = Release;
+		};
+		1740FADA271544EF00364EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeevaWebBrowser;
+			};
+			name = Debug;
+		};
+		1740FADB271544EF00364EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SB76NZCQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AngeloPetelo.NeevaWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeevaWebBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1740FAA4271544EB00364EC3 /* Build configuration list for PBXProject "NeevaWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740FAD1271544EF00364EC3 /* Debug */,
+				1740FAD2271544EF00364EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1740FAD3271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740FAD4271544EF00364EC3 /* Debug */,
+				1740FAD5271544EF00364EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1740FAD6271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740FAD7271544EF00364EC3 /* Debug */,
+				1740FAD8271544EF00364EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1740FAD9271544EF00364EC3 /* Build configuration list for PBXNativeTarget "NeevaWebBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740FADA271544EF00364EC3 /* Debug */,
+				1740FADB271544EF00364EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1740FAA1271544EB00364EC3 /* Project object */;
+}
