@@ -3,9 +3,13 @@
 1. How To Run
 
 a. Unzip the project folder
+
 b. Open project folder
+
 c. Look for "NeevaWebBrowser.xcodeproj" and open that file. This should open up Xcode.
+
 d. Xcode should be open at this point, now select an iOS simulator. I suggest using a more recent one like the iPhone 13.
+
 e. Now build and run the project. On initial build it may a take a while to load but it should load eventually.
 
 When using the simulator, in order to search the user must use the simulator keyboard and hit search. Use Command + K to toggle the keyboard when needed.
