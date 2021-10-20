@@ -20,7 +20,7 @@ I did not implement any other additional features other than the 2 parts of the 
 
 3. Approach
 
-  For this project, I tried to separate in 3 parts: an individual tab, tab switcher, and bookmarks. I decided to work on the individual tab first because that is where I figured most of the work needed to be done, and also I had familiarize myself with WKWebView. I figured once I get this part completed, inserting it into a tab switcher component and adding a bookmark feature would be fairly straightforward. 
+  For this project, I tried to separate in 3 parts: an individual tab, tab switcher, and bookmarks. I decided to work on the individual tab first because that is where I figured most of the work needed to be done, and also I had to familiarize myself with WKWebView. I figured once I get this part completed, inserting it into a tab switcher component and adding a bookmark feature would be fairly straightforward. 
   
   For my architecual approach, I decided to create a View Controller that would handle the Web View. I created a View Controller for a tab and this contained that Web View and also the tab logic. I wanted to separate these two Controllers because it made for more modularity rather combining these two in one Controller. I also made View Controller for each the tab switcher and bookmark for the same reason. 
   
