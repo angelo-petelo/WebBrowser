@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		1740FAAD271544EB00364EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAAC271544EB00364EC3 /* AppDelegate.swift */; };
 		1740FAAF271544EB00364EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAAE271544EB00364EC3 /* SceneDelegate.swift */; };
-		1740FAB1271544EB00364EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAB0271544EB00364EC3 /* ViewController.swift */; };
-		1740FAB4271544EB00364EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB2271544EB00364EC3 /* Main.storyboard */; };
 		1740FAB6271544EF00364EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB5271544EF00364EC3 /* Assets.xcassets */; };
 		1740FAB9271544EF00364EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */; };
-		1740FAC4271544EF00364EC3 /* NeevaWebBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */; };
-		1740FACE271544EF00364EC3 /* NeevaWebBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */; };
-		1740FAD0271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */; };
+		17976CEE271A8B1100159309 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17976CED271A8B1100159309 /* TabViewController.swift */; };
+		17976CF0271AA38500159309 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17976CEF271AA38500159309 /* WebsiteViewController.swift */; };
+		17976CF7271CEBE700159309 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17976CF6271CEBE700159309 /* TabsViewController.swift */; };
+		17976CFB271EA75400159309 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17976CFA271EA75300159309 /* BookmarksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,15 @@
 		1740FAA9271544EB00364EC3 /* NeevaWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeevaWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1740FAAC271544EB00364EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1740FAAE271544EB00364EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1740FAB0271544EB00364EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1740FAB3271544EB00364EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1740FAB5271544EF00364EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1740FAB8271544EF00364EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1740FABA271544EF00364EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1740FABF271544EF00364EC3 /* NeevaWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeevaWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserTests.swift; sourceTree = "<group>"; };
 		1740FAC9271544EF00364EC3 /* NeevaWebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeevaWebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserUITests.swift; sourceTree = "<group>"; };
-		1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeevaWebBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17976CED271A8B1100159309 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		17976CEF271AA38500159309 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		17976CF6271CEBE700159309 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		17976CFA271EA75300159309 /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				1740FAAB271544EB00364EC3 /* NeevaWebBrowser */,
-				1740FAC2271544EF00364EC3 /* NeevaWebBrowserTests */,
-				1740FACC271544EF00364EC3 /* NeevaWebBrowserUITests */,
 				1740FAAA271544EB00364EC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,30 +97,15 @@
 			children = (
 				1740FAAC271544EB00364EC3 /* AppDelegate.swift */,
 				1740FAAE271544EB00364EC3 /* SceneDelegate.swift */,
-				1740FAB0271544EB00364EC3 /* ViewController.swift */,
-				1740FAB2271544EB00364EC3 /* Main.storyboard */,
 				1740FAB5271544EF00364EC3 /* Assets.xcassets */,
 				1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */,
 				1740FABA271544EF00364EC3 /* Info.plist */,
+				17976CEF271AA38500159309 /* WebsiteViewController.swift */,
+				17976CED271A8B1100159309 /* TabViewController.swift */,
+				17976CF6271CEBE700159309 /* TabsViewController.swift */,
+				17976CFA271EA75300159309 /* BookmarksViewController.swift */,
 			);
 			path = NeevaWebBrowser;
-			sourceTree = "<group>";
-		};
-		1740FAC2271544EF00364EC3 /* NeevaWebBrowserTests */ = {
-			isa = PBXGroup;
-			children = (
-				1740FAC3271544EF00364EC3 /* NeevaWebBrowserTests.swift */,
-			);
-			path = NeevaWebBrowserTests;
-			sourceTree = "<group>";
-		};
-		1740FACC271544EF00364EC3 /* NeevaWebBrowserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1740FACD271544EF00364EC3 /* NeevaWebBrowserUITests.swift */,
-				1740FACF271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift */,
-			);
-			path = NeevaWebBrowserUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +214,6 @@
 			files = (
 				1740FAB9271544EF00364EC3 /* LaunchScreen.storyboard in Resources */,
 				1740FAB6271544EF00364EC3 /* Assets.xcassets in Resources */,
-				1740FAB4271544EB00364EC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1740FAB1271544EB00364EC3 /* ViewController.swift in Sources */,
+				17976CFB271EA75400159309 /* BookmarksViewController.swift in Sources */,
+				17976CF0271AA38500159309 /* WebsiteViewController.swift in Sources */,
+				17976CEE271A8B1100159309 /* TabViewController.swift in Sources */,
 				1740FAAD271544EB00364EC3 /* AppDelegate.swift in Sources */,
+				17976CF7271CEBE700159309 /* TabsViewController.swift in Sources */,
 				1740FAAF271544EB00364EC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1740FAC4271544EF00364EC3 /* NeevaWebBrowserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1740FAD0271544EF00364EC3 /* NeevaWebBrowserUITestsLaunchTests.swift in Sources */,
-				1740FACE271544EF00364EC3 /* NeevaWebBrowserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +277,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1740FAB2271544EB00364EC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1740FAB3271544EB00364EC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1740FAB7271544EF00364EC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +416,6 @@
 				INFOPLIST_FILE = NeevaWebBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +443,6 @@
 				INFOPLIST_FILE = NeevaWebBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
